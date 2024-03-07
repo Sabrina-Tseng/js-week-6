@@ -1,0 +1,53 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>The Parsons Web Project</title>
+	<meta name="description" content="Spring 24 Class">
+	<meta name="author" content="Parsons">
+
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<header></header>
+	<section>
+			<h1>Sabrina Tseng</h1>
+			<h2>Class 6 exercise/homework</h2>
+	</section>
+	<section>
+		<form name="search" action="https://www.google.com/search" id="searchForm" method="GET">
+
+			<div>
+				<label for="SearchBox1">Search box with popup error message</label><br>
+				<input type="text" name="searchBox1" id="SearchBox1" placeholder="Placeholder Text" value="" >
+			</div>
+
+			<div>
+				<label for="SearchBox2">Search box with inline error message</label><br>
+				<input type="text" name="searchBox2" id="SearchBox2" placeholder="Placeholder Text" value="" >
+				<div class="error" style="color: red;"></div>
+			</div>
+
+			<button type="submit">Search</button>
+
+		</form>
+	</section>
+
+	<section id="bot">
+			<form name="catBot" id="catBotForm"  method="GET">
+				<label for="TalkWithBot">Ask me about my cat!</label>
+				<input type="text" name="ask" id="TalkWithBot" placeholder="Question" value="" required>
+				<button type="submit">Ask</button>
+			</form>
+		<!-- <div class="answer"></div> -->
+	</section>
+
+	<!-- script always before closing body tag -->
+	<script src="js/scripts.js"></script>
+</body>
+</html>
+
